@@ -1,0 +1,14 @@
+
+mybatis:
+  typeAliasesPackage: com.example.demo.entity
+  mapperLocations: classpath:mapper/*.xml
+spring:
+  datasource:
+    url: jdbc:mysql://129.28.193.160:3306/part_bulid_dev
+    username: root
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+server:
+  port: 1234
